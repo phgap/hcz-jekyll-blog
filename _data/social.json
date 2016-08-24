@@ -1,18 +1,22 @@
 [
   {
-    "icon": "fa-facebook",
-    "link": ""
+    "icon": "fa-weibo",
+    "link": "",
+    "name": "weibo"
   },
   {
-    "icon": "fa-twitter",
-    "link": ""
+    "icon": "fa-wechat",
+    "link": "",
+    "name": "wechat"
   },
   {
     "icon": "fa-linkedin",
-    "link": ""
+    "link": "",
+    "name": "qq-zone"
   },
   {
-    "icon": "fa-stack-exchange",
-    "link": ""
+    "icon": "fa-qq",
+    "link": "",
+    "name": "qq"
   }
 ]

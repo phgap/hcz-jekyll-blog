@@ -1,19 +1,19 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
+title: Phgap
+description: Phgap's technique Pool
+author: Phgap
 logo: /static/img/avatar.png
-github: https://github.com/ashutosh2k12
-about: Freelance developer
+github: https://github.com/phgap
+# about: Freelance developer
 
 baseurl: ""
-url: "http://aboutashu.com/hcz-jekyll-blog"
+url: "http://phgap.cn"
 
-disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
+disqus_shortname: phgap
+# google_analytics: UA-72862926-1
 
-share:
-  twitter_username: \#
-  fb_appid: 000000000000
+# share:
+#   twitter_username: \#
+#   fb_appid: 000000000000
 
 
 enableTags: true
