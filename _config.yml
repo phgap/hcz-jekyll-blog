@@ -6,7 +6,7 @@ github: https://github.com/phgap
 # about: Freelance developer
 
 baseurl: ""
-url: "http://phgap.cn"
+# url: "http://phgap.cn"
 
 disqus_shortname: phgap
 # google_analytics: UA-72862926-1
