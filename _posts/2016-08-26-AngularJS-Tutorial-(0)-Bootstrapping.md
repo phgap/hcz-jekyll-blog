@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "AngularJS 学习指导 (0) - Bootstrapping"
+title:  "AngularJS Tutorial (0) - Bootstrapping"
 categories: AngularJS
 ---
 
-AngularJS 学习指导 (0) - Bootstrapping
+{{ page.title }}
 ======
 
 In this step of the tutorial, you will become familiar with the most important source code files of the AngularJS Phonecat App. You will also learn how to start the development servers bundled with angular-seed, and run the application in the browser.
@@ -80,12 +80,14 @@ For more info on bootstrapping your app, checkout the Bootstrap section of the D
 **Double-curly binding with an expression:**
 
 {% highlight JavaScript%}
+{% raw %}
 Nothing here {{'yet' + '!'}}
+{% endraw %}
 {% endhighlight %}
 
 This line demonstrates two core features of Angular's templating capabilities:
 
-* A binding, denoted by double-curlies: `{{ }}`
+* A binding, denoted by double-curlies: `{% raw %}{{ }}{% endraw %}`
 * A simple expression used in this binding: `'yet' + '!'`
 
 The binding tells Angular that it should evaluate an expression and insert the result into the DOM in place of the binding. As we will see in the next steps, rather than a one-time insert, a binding will result in efficient continuous updates whenever the result of the expression evaluation changes.
@@ -115,7 +117,7 @@ Once an application is bootstrapped, it will then wait for incoming browser even
 
 The structure of our application is currently very simple. The template contains just one directive and one static binding, and our model is empty. That will soon change!
 
-![有帮助的截图]({{ site.url }}/assets/angular/tutorial/00/tutorial_00.png)
+![Template&Model]({{ site.url }}/assets/angular/tutorial/00/tutorial_00.png)
 
 
 What are all these files in my working directory?
