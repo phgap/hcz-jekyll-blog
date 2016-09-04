@@ -176,8 +176,7 @@ footer {
 
 /***********************************/
 /***add by cui.jn*****/
-.prev {
-
+.prev,.next {
   margin-top: -20px;
 }
 
